@@ -2,13 +2,17 @@
 
 ## Add the following to every new file
 
-```scm
-;; Put this code at the top of every file
-(display "Welcome to SICP!")
-(newline)
-(display "------------------------------------------------------")
-(newline)
-(load "sicp-helpers.scm")
+```scheme
+(cond 
+  ((file-exists? "../../sicp-helpers.scm") 
+   (load "../../sicp-helpers.scm"))
+  ((file-exists? "../sicp-helpers.scm") 
+   (load "../sicp-helpers.scm"))
+  ((file-exists? "src/sicp-helpers.scm") 
+   (load "src/sicp-helpers.scm"))
+  (else 
+   (display "Warning: sicp-helpers.scm not found!")
+   (newline)))
 ```
 
 This snippet makes some code available to these files.
