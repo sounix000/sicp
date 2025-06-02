@@ -8,6 +8,6 @@
   "code-runner.runInTerminal": true,
   "code-runner.clearPreviousOutput": true,
   "files.associations": {
-  "*.scm": "scheme"
+    "*.scm": "scheme"
   }
 }
