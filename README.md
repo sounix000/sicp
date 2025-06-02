@@ -3,10 +3,13 @@
 ## Add the following to every new file
 
 ```scm
-(load "sicp.scm")
+;; Put this code at the top of every file
 (display "Welcome to SICP!")
 (newline)
-
-Let the adventure begin!
+(display "------------------------------------------------------")
+(newline)
+(load "sicp-helpers.scm")
 ```
+
+This snippet makes some code available to these files.
 
