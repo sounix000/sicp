@@ -5,3 +5,5 @@
 (display "Welcome to SICP!")
 (newline)
 
+Let the adventure begin!
+
