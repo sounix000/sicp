@@ -1,0 +1,12 @@
+[
+    {
+        "key": "ctrl+enter",
+        "command": "calva.evaluateCurrentForm",
+        "when": "editorTextFocus && editorLangId == scheme"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "calva.evaluateTopLevelForm",
+        "when": "editorTextFocus && editorLangId == scheme"
+    }
+]
