@@ -1,0 +1,29 @@
+#+TITLE: Notes on Programming
+#+AUTHOR: Souvik Sarkar
+#+DATE: \today
+#+LANGUAGE: en
+#+OPTIONS: toc:nil num:t
+#+LATEX_COMPILER: xelatex
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \setmainfont{Times New Roman}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{margin=1in}
+#+LATEX_HEADER: \usepackage{hyperref}
+
+* Introduction
+This is a sample Org file configured for PDF export.
+
+* Example Section
+- Bullet point one
+- Bullet point two
+
+** Subsection
+Some text here.
+
+* Another Section
+Here’s a formula inline: \( e^{i\pi} + 1 = 0 \).
+
+A display equation:
+\[
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+\]

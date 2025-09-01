@@ -1,0 +1,57 @@
+#+TITLE: Notes on Programming and Software Development
+#+AUTHOR: Souvik
+#+DATE: \today
+#+LANGUAGE: en
+#+OPTIONS: toc:nil num:nil
+#+LATEX_COMPILER: xelatex
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \setmainfont{Times New Roman}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{margin=1in}
+#+LATEX_HEADER: \usepackage{hyperref}
+
+* Notes on Programming and Software Development
+Excerpt from the introductory material of SICP
+
+** Responsibility
+- We are not really "responsible" for the successful, error-free, perfect use of the programs. We are responsible for creating them, setting them off in directions. The same can be said about our responsibility towards our own mind.
+
+** On Large Problems
+- An assault on large problems employs a succession of programs, most of which spring into existence en route.
+- It doesn’t matter what the programs are about and what applications they serve. What does matter is how well they perform and how smoothly they fit with other programs, in the creation of still greater programs.
+- The programmer must seek both perfection of plan and adequacy of collection.
+
+** Programming as a Model
+- Human mind ↔ Collection of computer programs ↔ Computers.
+- Every computer program is a model, hatched in the mind, of a real or mental process. These models evolve as our understanding of the process improves.
+
+** Program Truth
+- As in every other symbolic activity, we become convinced of program truth through argument.
+- If a program’s function can be specified in predicate calculus, then proof methods of logic can be used to make acceptable correctness arguments.
+
+** Growth of Programs
+- Since large programs grow from small programs, it is essential that we develop an arsenal of standard program structures (idioms). These constructions can be combined into larger structures using organizational techniques of proven value.
+
+** Hardware and Programming
+- Each breakthrough in hardware technology leads to more massive programming enterprises, new organizational principles, and an enrichment of abstract models. In modern times, new programming techniques are driving the exploitation of hardware. Example: probabilistic software for machine learning applications. The advancement of SIMD processors, CPUs, and storage technology has happened in parallel to the growth in applications of machine learning and deep learning.
+
+** Programmer’s Role
+- A programmer should acquire good algorithms and idioms. It is the responsibility of the programmer to always examine and attempt to improve their performance.
+
+** Software and AI
+- The critical concerns of software engineering and artificial intelligence tend to coalesce as the systems under investigation become larger.
+
+** Nature of Programming Languages
+- A programming language is not just a way of getting a computer to perform operations. It is a novel formal medium for expressing ideas about methodology.
+- Programs must be written for people to read, and only incidentally for machines to execute.
+
+** Computation and Mathematics
+- The computer revolution is a revolution in the way we think and in how we express what we think.
+- Mathematics provides a framework for dealing precisely with the notion of “what is.”
+- Computation provides a framework for dealing precisely with the notion of “how to.”
+
+** Simplicity and Modeling
+- One should avoid the complexities of control and concentrate on organizing the data to reflect the real structure of the world being modeled.
+
+** Power of Programming
+- The ability to write and modify programs provides a powerful medium in which exploring becomes a natural activity.
