@@ -55,6 +55,19 @@ Install **vscode-scheme** for syntax highlighting:
 
 `Ctrl+Enter` works on both Mac and Linux.
 
+### Add workspace settings for SICP
+
+In the `.vscode/settings.json` of the project root directory, add the following:
+
+```json
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true
+}
+```
+
+This snippet helps navigate the parenthesis hell of Lisp/Scheme code.
+
 ---
 
 ## 3. Running Code
