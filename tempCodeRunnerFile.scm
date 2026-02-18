@@ -1,2 +1,2 @@
 (define (square x) (* x x))
-;; (square 5)
+(square 5)
