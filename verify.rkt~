@@ -1,7 +1,0 @@
-#lang sicp
-(define p (cons 1 2))
-(set-car! p 99)
-(display p) (newline)                                   ; (99 . 100)
-(define (ints n) (cons-stream n (ints (+ n 1))))
-(display (stream-car (stream-cdr (ints 1)))) (newline)  ; 2
-(display "ENVIRONMENT OK") (newline)
